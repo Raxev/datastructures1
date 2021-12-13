@@ -1,13 +1,14 @@
 from comparable import Comparable
 from date import Date
 
+
 class Person(Comparable):
     """
     This class is immutable and inherits from Comparable
     It uses composition by having a Date object for birthday
     Please code this using private instance variables.
     Each instance variable should have a getter, but no setters
-    Code the compare method, and call the base class compare
+    Code the compare method, and call the base class compare.
     Code a __str__ method
     """
 
